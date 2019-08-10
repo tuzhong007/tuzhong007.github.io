@@ -21,7 +21,6 @@ categories: jekyll update
         "HTML-CSS": { availableFonts: ["TeX"] }
     });
 </script>
-ff
 Try to solve the equation $$x+1=2$$:
 <center>
 $$
