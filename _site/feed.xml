@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-11T00:12:28+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">test</title><link href="http://localhost:4000/jekyll/update/2019/08/10/test.html" rel="alternate" type="text/html" title="test" /><published>2019-08-10T23:45:59+08:00</published><updated>2019-08-10T23:45:59+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/10/test</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/10/test.html">&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
+&lt;/script&gt;
+
+&lt;p&gt;Try to solve the equation &lt;script type=&quot;math/tex&quot;&gt;x+1=2&lt;/script&gt;:&lt;/p&gt;
+&lt;center&gt;
+$$
+\begin{equation}
+	\begin{aligned}
+		x+1&amp;amp;=2 \\
+		x+1-1&amp;amp;=2-1 \\
+		x&amp;amp;=1.\\
+	\end{aligned}
+\end{equation}
+$$
+&lt;/center&gt;
+&lt;p&gt;Then we get &lt;script type=&quot;math/tex&quot;&gt;x=1&lt;/script&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Try to solve the equation : $$ \begin{equation} \begin{aligned} x+1&amp;amp;=2 \\ x+1-1&amp;amp;=2-1 \\ x&amp;amp;=1.\\ \end{aligned} \end{equation} $$ Then we get .</summary></entry></feed>
