@@ -4,8 +4,22 @@ title:  "test"
 date:   2019-08-10 23:45:59 +0800
 categories: jekyll update
 ---
-<script type="text/javascript"
-   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+
+<script type="text/javascript" async
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="text/javascript">
+    MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+            inlineMath: [["\\(", "\\)"]],
+            displayMath: [["$$", "$$"],["\\[", "\\]"]],
+            processEscapes: true
+        },
+        "HTML-CSS": { availableFonts: ["TeX"] }
+    });
 </script>
 Try to solve the equation $$x+1=2$$:
 <center>
