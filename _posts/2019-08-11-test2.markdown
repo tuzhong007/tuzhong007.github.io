@@ -28,4 +28,58 @@ Since $$\overline{f(E)}$$ is closed, $$f^{-1}[\overline{f(E)}]$$ is closed. Sinc
 $$E\subset f^{-1}[\overline{f(E)}]$$, we have $$\overline{E}\subset f^{-1}[\overline{f(E)}]$$, thus $$f(\overline{E})\subset \overline{f(E)}$$.
 <br>
 Next, let $$X$$ and $$Y$$ be $$R^1$$, $$E=\{x|x\in N^{*}\}$$, and $$f(x)=\frac{1}{x}$$. Then $$f$$ is continuous, and $$f(\overline{E})=\{\frac{1}{x}|x\in N^{*}\}$$,  while $$\overline{f(E)}=\{\frac{1}{x}|x\in N^{*}\}\cup \{0\}$$. Hence $$f(\overline{E})$$ is a proper subset of $$\overline{f(E)}$$.
+<br><br>
 
+<strong>Sample 2(Exercise 3.14 (a)):</strong>
+
+If $$s_n$$ is a complex sequence, define its arithmetic means $$\sigma_n$$ by
+<center>
+$$
+\begin{equation}
+		\sigma _n=\frac{s_0+s_1+\cdot\cdot\cdot+s_n}{n+1}\hspace{1cm} (n=0,1,2,...).
+\end{equation}
+$$
+</center>
+If $$\lim{s_n}=s$$, prove that $$\lim{\sigma_n}=s$$.
+
+<br>
+
+<strong>Solution:</strong>
+
+Given an $$\epsilon_0>0$$.<br>
+
+$$\lim{s_n}=s$$, that is to say, $$\forall \epsilon_1>0$$, $$\exists N_1>0$$, s.t. $$\forall n\geq N_1$$, $$\mid s_n-s\mid <\epsilon_1(1)$$.
+
+We noticed that
+
+<center>
+
+$$
+\begin{equation}
+	|\sigma_n-s|=|\frac{\sum_{i=0}^{n}s_i-s}{n+1}|\leq \frac{\sum_{0}^{n}|s_i-s|}{n+1}
+\end{equation}
+$$
+
+</center>
+
+We now let $$\epsilon_1=\frac{\epsilon_0}{2}$$, and then apply (1). Now we have
+
+<center>
+
+$$
+\begin{equation}
+	\begin{aligned}
+		|\sigma_n-s|&\leq \frac{\sum_{0}^{N_1-1}|s_i-s|+\sum_{N_1}^{n}|s_i-s|}{n+1}\\
+		&\leq \frac{\sum_{0}^{N_1-1}|s_i-s|+(n-N_1+1)\epsilon_1}{n+1}\\
+		&\leq \frac{\sum_{0}^{N_1-1}|s_i-s|}{n+1}+\frac{\epsilon_0}{2}
+	\end{aligned}	
+\end{equation}
+$$
+
+</center>
+
+Put $$A_n=\frac{\sum_{0}^{N_1-1}\mid s_i-s \mid}{n+1}$$. We can see $$\lim A_n=0$$, i.e., $$\forall \epsilon_2>0$$, $$\exists N_2>0$$, s.t. $$\forall n\geq N_2$$, $$A_n<\epsilon_2(2)$$. Then we let $$\epsilon_2=\frac{\epsilon_0}{2}$$, and $$N_0=max\{N1,N2\}$$. Hence, $$\mid\sigma_n-s\mid \leq A_n+\frac{\epsilon_0}{2}\leq \frac{\epsilon_0}{2}+\frac{\epsilon_0}{2}=\epsilon_0$$, if $$n\geq N_0$$.
+
+
+
+Thus we obtain the conclusion that $$\forall \epsilon_0>0$$, $$\exists N_0>0$$, s.t. $$\forall n\geq N_0$$, $$\mid\sigma_n-s\mid<\epsilon_0$$, which means that $$\lim{\sigma_n}=s$$.

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-11T13:25:50+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">test2</title><link href="http://localhost:4000/2019/08/11/test2.html" rel="alternate" type="text/html" title="test2" /><published>2019-08-11T00:00:00+08:00</published><updated>2019-08-11T00:00:00+08:00</updated><id>http://localhost:4000/2019/08/11/test2</id><content type="html" xml:base="http://localhost:4000/2019/08/11/test2.html">&lt;head&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-11T17:01:16+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">test2</title><link href="http://localhost:4000/2019/08/11/test2.html" rel="alternate" type="text/html" title="test2" /><published>2019-08-11T00:00:00+08:00</published><updated>2019-08-11T00:00:00+08:00</updated><id>http://localhost:4000/2019/08/11/test2</id><content type="html" xml:base="http://localhost:4000/2019/08/11/test2.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
@@ -22,7 +22,63 @@ $$
 Since &lt;script type=&quot;math/tex&quot;&gt;\overline{f(E)}&lt;/script&gt; is closed, &lt;script type=&quot;math/tex&quot;&gt;f^{-1}[\overline{f(E)}]&lt;/script&gt; is closed. Since 
 &lt;script type=&quot;math/tex&quot;&gt;E\subset f^{-1}[\overline{f(E)}]&lt;/script&gt;, we have &lt;script type=&quot;math/tex&quot;&gt;\overline{E}\subset f^{-1}[\overline{f(E)}]&lt;/script&gt;, thus &lt;script type=&quot;math/tex&quot;&gt;f(\overline{E})\subset \overline{f(E)}&lt;/script&gt;.
 &lt;br /&gt;
-Next, let &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;Y&lt;/script&gt; be &lt;script type=&quot;math/tex&quot;&gt;R^1&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;E=\{x|x\in N^{*}\}&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;f(x)=\frac{1}{x}&lt;/script&gt;. Then &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; is continuous, and &lt;script type=&quot;math/tex&quot;&gt;f(\overline{E})=\{\frac{1}{x}|x\in N^{*}\}&lt;/script&gt;,  while &lt;script type=&quot;math/tex&quot;&gt;\overline{f(E)}=\{\frac{1}{x}|x\in N^{*}\}\cup \{0\}&lt;/script&gt;. Hence &lt;script type=&quot;math/tex&quot;&gt;f(\overline{E})&lt;/script&gt; is a proper subset of &lt;script type=&quot;math/tex&quot;&gt;\overline{f(E)}&lt;/script&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">test1</title><link href="http://localhost:4000/jekyll/update/2019/08/10/test1.html" rel="alternate" type="text/html" title="test1" /><published>2019-08-10T23:45:59+08:00</published><updated>2019-08-10T23:45:59+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/10/test1</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/10/test1.html">&lt;head&gt;
+Next, let &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;Y&lt;/script&gt; be &lt;script type=&quot;math/tex&quot;&gt;R^1&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;E=\{x|x\in N^{*}\}&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;f(x)=\frac{1}{x}&lt;/script&gt;. Then &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; is continuous, and &lt;script type=&quot;math/tex&quot;&gt;f(\overline{E})=\{\frac{1}{x}|x\in N^{*}\}&lt;/script&gt;,  while &lt;script type=&quot;math/tex&quot;&gt;\overline{f(E)}=\{\frac{1}{x}|x\in N^{*}\}\cup \{0\}&lt;/script&gt;. Hence &lt;script type=&quot;math/tex&quot;&gt;f(\overline{E})&lt;/script&gt; is a proper subset of &lt;script type=&quot;math/tex&quot;&gt;\overline{f(E)}&lt;/script&gt;.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sample 2(Exercise 3.14 (a)):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;s_n&lt;/script&gt; is a complex sequence, define its arithmetic means &lt;script type=&quot;math/tex&quot;&gt;\sigma_n&lt;/script&gt; by&lt;/p&gt;
+&lt;center&gt;
+$$
+\begin{equation}
+		\sigma _n=\frac{s_0+s_1+\cdot\cdot\cdot+s_n}{n+1}\hspace{1cm} (n=0,1,2,...).
+\end{equation}
+$$
+&lt;/center&gt;
+&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;\lim{s_n}=s&lt;/script&gt;, prove that &lt;script type=&quot;math/tex&quot;&gt;\lim{\sigma_n}=s&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Given an &lt;script type=&quot;math/tex&quot;&gt;\epsilon_0&gt;0&lt;/script&gt;.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\lim{s_n}=s&lt;/script&gt;, that is to say, &lt;script type=&quot;math/tex&quot;&gt;\forall \epsilon_1&gt;0&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;\exists N_1&gt;0&lt;/script&gt;, s.t. &lt;script type=&quot;math/tex&quot;&gt;\forall n\geq N_1&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\mid s_n-s\mid &lt;\epsilon_1(1) %]]&gt;&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;We noticed that&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}
+	|\sigma_n-s|=|\frac{\sum_{i=0}^{n}s_i-s}{n+1}|\leq \frac{\sum_{0}^{n}|s_i-s|}{n+1}
+\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;We now let &lt;script type=&quot;math/tex&quot;&gt;\epsilon_1=\frac{\epsilon_0}{2}&lt;/script&gt;, and then apply (1). Now we have&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}
+	\begin{aligned}
+		|\sigma_n-s|&amp;amp;\leq \frac{\sum_{0}^{N_1-1}|s_i-s|+\sum_{N_1}^{n}|s_i-s|}{n+1}\\
+		&amp;amp;\leq \frac{\sum_{0}^{N_1-1}|s_i-s|+(n-N_1+1)\epsilon_1}{n+1}\\
+		&amp;amp;\leq \frac{\sum_{0}^{N_1-1}|s_i-s|}{n+1}+\frac{\epsilon_0}{2}
+	\end{aligned}	
+\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;Put &lt;script type=&quot;math/tex&quot;&gt;A_n=\frac{\sum_{0}^{N_1-1}\mid s_i-s \mid}{n+1}&lt;/script&gt;. We can see &lt;script type=&quot;math/tex&quot;&gt;\lim A_n=0&lt;/script&gt;, i.e., &lt;script type=&quot;math/tex&quot;&gt;\forall \epsilon_2&gt;0&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;\exists N_2&gt;0&lt;/script&gt;, s.t. &lt;script type=&quot;math/tex&quot;&gt;\forall n\geq N_2&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+A_n&lt;\epsilon_2(2) %]]&gt;&lt;/script&gt;. Then we let &lt;script type=&quot;math/tex&quot;&gt;\epsilon_2=\frac{\epsilon_0}{2}&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;N_0=max\{N1,N2\}&lt;/script&gt;. Hence, &lt;script type=&quot;math/tex&quot;&gt;\mid\sigma_n-s\mid \leq A_n+\frac{\epsilon_0}{2}\leq \frac{\epsilon_0}{2}+\frac{\epsilon_0}{2}=\epsilon_0&lt;/script&gt;, if &lt;script type=&quot;math/tex&quot;&gt;n\geq N_0&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thus we obtain the conclusion that &lt;script type=&quot;math/tex&quot;&gt;\forall \epsilon_0&gt;0&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;\exists N_0&gt;0&lt;/script&gt;, s.t. &lt;script type=&quot;math/tex&quot;&gt;\forall n\geq N_0&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\mid\sigma_n-s\mid&lt;\epsilon_0 %]]&gt;&lt;/script&gt;, which means that &lt;script type=&quot;math/tex&quot;&gt;\lim{\sigma_n}=s&lt;/script&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">test1</title><link href="http://localhost:4000/jekyll/update/2019/08/10/test1.html" rel="alternate" type="text/html" title="test1" /><published>2019-08-10T23:45:59+08:00</published><updated>2019-08-10T23:45:59+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/10/test1</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/10/test1.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
