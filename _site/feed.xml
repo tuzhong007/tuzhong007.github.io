@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-11T17:01:16+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">test2</title><link href="http://localhost:4000/2019/08/11/test2.html" rel="alternate" type="text/html" title="test2" /><published>2019-08-11T00:00:00+08:00</published><updated>2019-08-11T00:00:00+08:00</updated><id>http://localhost:4000/2019/08/11/test2</id><content type="html" xml:base="http://localhost:4000/2019/08/11/test2.html">&lt;head&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-11T17:14:22+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">test2</title><link href="http://localhost:4000/2019/08/11/test2.html" rel="alternate" type="text/html" title="test2" /><published>2019-08-11T00:00:00+08:00</published><updated>2019-08-11T00:00:00+08:00</updated><id>http://localhost:4000/2019/08/11/test2</id><content type="html" xml:base="http://localhost:4000/2019/08/11/test2.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
@@ -52,7 +52,7 @@ $$
 
 $$
 \begin{equation}
-	|\sigma_n-s|=|\frac{\sum_{i=0}^{n}s_i-s}{n+1}|\leq \frac{\sum_{0}^{n}|s_i-s|}{n+1}
+	|\sigma_n-s|=|\frac{\sum_{i=0}^{n}s_i-s}{n+1}|\leq \frac{\sum_{i=0}^{n}|s_i-s|}{n+1}
 \end{equation}
 $$
 
@@ -65,16 +65,16 @@ $$
 $$
 \begin{equation}
 	\begin{aligned}
-		|\sigma_n-s|&amp;amp;\leq \frac{\sum_{0}^{N_1-1}|s_i-s|+\sum_{N_1}^{n}|s_i-s|}{n+1}\\
-		&amp;amp;\leq \frac{\sum_{0}^{N_1-1}|s_i-s|+(n-N_1+1)\epsilon_1}{n+1}\\
-		&amp;amp;\leq \frac{\sum_{0}^{N_1-1}|s_i-s|}{n+1}+\frac{\epsilon_0}{2}
+		|\sigma_n-s|&amp;amp;\leq \frac{\sum_{i=0}^{N_1-1}|s_i-s|+\sum_{i=N_1}^{n}|s_i-s|}{n+1}\\
+		&amp;amp;\leq \frac{\sum_{i=0}^{N_1-1}|s_i-s|+(n-N_1+1)\epsilon_1}{n+1}\\
+		&amp;amp;\leq \frac{\sum_{i=0}^{N_1-1}|s_i-s|}{n+1}+\frac{\epsilon_0}{2}
 	\end{aligned}	
 \end{equation}
 $$
-
 &lt;/center&gt;
+&lt;p&gt;if &lt;script type=&quot;math/tex&quot;&gt;n\geq N_1&lt;/script&gt;.&lt;/p&gt;
 
-&lt;p&gt;Put &lt;script type=&quot;math/tex&quot;&gt;A_n=\frac{\sum_{0}^{N_1-1}\mid s_i-s \mid}{n+1}&lt;/script&gt;. We can see &lt;script type=&quot;math/tex&quot;&gt;\lim A_n=0&lt;/script&gt;, i.e., &lt;script type=&quot;math/tex&quot;&gt;\forall \epsilon_2&gt;0&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;\exists N_2&gt;0&lt;/script&gt;, s.t. &lt;script type=&quot;math/tex&quot;&gt;\forall n\geq N_2&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+&lt;p&gt;Put &lt;script type=&quot;math/tex&quot;&gt;A_n=\frac{\sum_{i=0}^{N_1-1}\mid s_i-s \mid}{n+1}&lt;/script&gt;. We can see &lt;script type=&quot;math/tex&quot;&gt;\lim A_n=0&lt;/script&gt;, i.e., &lt;script type=&quot;math/tex&quot;&gt;\forall \epsilon_2&gt;0&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;\exists N_2&gt;0&lt;/script&gt;, s.t. &lt;script type=&quot;math/tex&quot;&gt;\forall n\geq N_2&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
 A_n&lt;\epsilon_2(2) %]]&gt;&lt;/script&gt;. Then we let &lt;script type=&quot;math/tex&quot;&gt;\epsilon_2=\frac{\epsilon_0}{2}&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;N_0=max\{N1,N2\}&lt;/script&gt;. Hence, &lt;script type=&quot;math/tex&quot;&gt;\mid\sigma_n-s\mid \leq A_n+\frac{\epsilon_0}{2}\leq \frac{\epsilon_0}{2}+\frac{\epsilon_0}{2}=\epsilon_0&lt;/script&gt;, if &lt;script type=&quot;math/tex&quot;&gt;n\geq N_0&lt;/script&gt;.&lt;/p&gt;
 
 &lt;p&gt;Thus we obtain the conclusion that &lt;script type=&quot;math/tex&quot;&gt;\forall \epsilon_0&gt;0&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;\exists N_0&gt;0&lt;/script&gt;, s.t. &lt;script type=&quot;math/tex&quot;&gt;\forall n\geq N_0&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
