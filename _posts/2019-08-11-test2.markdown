@@ -27,5 +27,5 @@ for every set $$E\subset X$$. ($$\overline{E}$$ denotes the closure of $$E$$.) S
 Since $$\overline{f(E)}$$ is closed, $$f^{-1}[\overline{f(E)}]$$ is closed. Since 
 $$E\subset f^{-1}[\overline{f(E)}]$$, we have $$\overline{E}\subset f^{-1}[\overline{f(E)}]$$, thus $$f(\overline{E})\subset \overline{f(E)}$$.
 <br>
-Next, let $$X$$ and $$Y$$ be $$R^1$$, $$E=\{x|x\in N^{*}\}$$, and $$f(x)=\frac{1}{x}$$. Then $$f$$ is continuous, and $$f(\overline{E})=\{\frac{1}{x}|x\in N^{*}\}$$,  while $$\overline{f(E)}=\{\frac{1}{x}|x\in N^{*}\}\cup \{0\}$$. Hence $$f(\overline{E})\subset \overline{f(E)}$$.
+Next, let $$X$$ and $$Y$$ be $$R^1$$, $$E=\{x|x\in N^{*}\}$$, and $$f(x)=\frac{1}{x}$$. Then $$f$$ is continuous, and $$f(\overline{E})=\{\frac{1}{x}|x\in N^{*}\}$$,  while $$\overline{f(E)}=\{\frac{1}{x}|x\in N^{*}\}\cup \{0\}$$. Hence $$f(\overline{E})$$ is a proper subset of $$\overline{f(E)}$$.
 
