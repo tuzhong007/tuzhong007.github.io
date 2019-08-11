@@ -1,0 +1,31 @@
+---
+layout: post
+title: test2
+---
+<head>
+<script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+</head>
+
+I want to display diverse kinds of mathematics formular in this blog, so I will try to work out some exercises of baby rudin as samples.
+<br><br>
+<strong>Sample 1(exercise 4.2):</strong>
+<br>
+
+If $$f$$ is a continuous mapping of a metric space $$X$$ into a metric space $$Y$$, prove that <br>
+<center>
+$$
+\begin{equation}
+	f(\overline{E})\subset \overline{f(E)}
+\end{equation}
+$$
+</center>
+for every set $$E\subset X$$. ($$\overline{E}$$ denotes the closure of $$E$$.) Show, by an example, that $$f(\overline{E})$$ can be a proper subset of $$\overline{f(E)}$$.
+<br><br>
+<strong>Solution:</strong><br>
+Since $$\overline{f(E)}$$ is closed, $$f^{-1}[\overline{f(E)}]$$ is closed. Since 
+$$E\subset f^{-1}[\overline{f(E)}]$$, we have $$\overline{E}\subset f^{-1}[\overline{f(E)}]$$, thus $$f(\overline{E})\subset \overline{f(E)}$$.
+<br>
+Next, let $$X$$ and $$Y$$ be $$R^1$$, $$E=\{x|x\in N^{*}\}$$, and $$f(x)=\frac{1}{x}$$. Then $$f$$ is continuous, and $$f(\overline{E})=\{\frac{1}{x}|x\in N^{*}\}$$,  while $$\overline{f(E)}=\{\frac{1}{x}|x\in N^{*}\}\cup \{0\}$$. Hence $$f(\overline{E})\subset \overline{f(E)}$$.
+

@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-11T11:28:24+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">test</title><link href="http://localhost:4000/jekyll/update/2019/08/10/test.html" rel="alternate" type="text/html" title="test" /><published>2019-08-10T23:45:59+08:00</published><updated>2019-08-10T23:45:59+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/10/test</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/10/test.html">&lt;head&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-11T13:23:21+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">test2</title><link href="http://localhost:4000/2019/08/11/test2.html" rel="alternate" type="text/html" title="test2" /><published>2019-08-11T00:00:00+08:00</published><updated>2019-08-11T00:00:00+08:00</updated><id>http://localhost:4000/2019/08/11/test2</id><content type="html" xml:base="http://localhost:4000/2019/08/11/test2.html">&lt;head&gt;
+&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
+    &lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;I want to display diverse kinds of mathematics formular in this blog, so I will try to work out some exercises of baby rudin as samples.
+&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Sample 1(exercise 4.2):&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; is a continuous mapping of a metric space &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; into a metric space &lt;script type=&quot;math/tex&quot;&gt;Y&lt;/script&gt;, prove that &lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;
+$$
+\begin{equation}
+	f(\overline{E})\subset \overline{f(E)}
+\end{equation}
+$$
+&lt;/center&gt;
+&lt;p&gt;for every set &lt;script type=&quot;math/tex&quot;&gt;E\subset X&lt;/script&gt;. (&lt;script type=&quot;math/tex&quot;&gt;\overline{E}&lt;/script&gt; denotes the closure of &lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt;.) Show, by an example, that &lt;script type=&quot;math/tex&quot;&gt;f(\overline{E})&lt;/script&gt; can be a proper subset of &lt;script type=&quot;math/tex&quot;&gt;\overline{f(E)}&lt;/script&gt;.
+&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Solution:&lt;/strong&gt;&lt;br /&gt;
+Since &lt;script type=&quot;math/tex&quot;&gt;\overline{f(E)}&lt;/script&gt; is closed, &lt;script type=&quot;math/tex&quot;&gt;f^{-1}[\overline{f(E)}]&lt;/script&gt; is closed. Since 
+&lt;script type=&quot;math/tex&quot;&gt;E\subset f^{-1}[\overline{f(E)}]&lt;/script&gt;, we have &lt;script type=&quot;math/tex&quot;&gt;\overline{E}\subset f^{-1}[\overline{f(E)}]&lt;/script&gt;, thus &lt;script type=&quot;math/tex&quot;&gt;f(\overline{E})\subset \overline{f(E)}&lt;/script&gt;.
+&lt;br /&gt;
+Next, let &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;Y&lt;/script&gt; be &lt;script type=&quot;math/tex&quot;&gt;R^1&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;E=\{x|x\in N^{*}\}&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;f(x)=\frac{1}{x}&lt;/script&gt;. Then &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; is continuous, and &lt;script type=&quot;math/tex&quot;&gt;f(\overline{E})=\{\frac{1}{x}|x\in N^{*}\}&lt;/script&gt;,  while &lt;script type=&quot;math/tex&quot;&gt;\overline{f(E)}=\{\frac{1}{x}|x\in N^{*}\}\cup \{0\}&lt;/script&gt;. Hence &lt;script type=&quot;math/tex&quot;&gt;f(\overline{E})\subset \overline{f(E)}&lt;/script&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">test1</title><link href="http://localhost:4000/jekyll/update/2019/08/10/test1.html" rel="alternate" type="text/html" title="test1" /><published>2019-08-10T23:45:59+08:00</published><updated>2019-08-10T23:45:59+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/10/test1</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/10/test1.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
@@ -10,7 +34,7 @@ $$
 	\begin{aligned}
 		x+1&amp;amp;=2 \\
 		x+1-1&amp;amp;=2-1 \\
-		x&amp;amp;=1.\\
+		x&amp;amp;=1\\
 	\end{aligned}
 \end{equation}
 $$
