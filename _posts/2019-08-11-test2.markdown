@@ -78,7 +78,7 @@ $$
 </center>
 if $$n\geq N_1$$.
 
-Put $$A_n=\frac{\sum_{i=0}^{N_1-1}\mid s_i-s \mid}{n+1}$$. We can see $$\lim A_n=0$$, i.e., $$\forall \epsilon_2>0$$, $$\exists N_2>0$$, s.t. $$\forall n\geq N_2$$, $$A_n<\epsilon_2(2)$$. Then we let $$\epsilon_2=\frac{\epsilon_0}{2}$$, and $$N_0=max\{N1,N2\}$$. Hence, $$\mid\sigma_n-s\mid \leq A_n+\frac{\epsilon_0}{2}\leq \frac{\epsilon_0}{2}+\frac{\epsilon_0}{2}=\epsilon_0$$, if $$n\geq N_0$$.
+Put $$A_n=\frac{\sum_{i=0}^{N_1-1}\mid s_i-s \mid}{n+1}$$. We can see $$\lim A_n=0$$, i.e., $$\forall \epsilon_2>0$$, $$\exists N_2>0$$, s.t. $$\forall n\geq N_2$$, $$A_n<\epsilon_2(2)$$. Then we let $$\epsilon_2=\frac{\epsilon_0}{2}$$, and $$N_0=max\{N_1,N_2\}$$. Hence, $$\mid\sigma_n-s\mid \leq A_n+\frac{\epsilon_0}{2}\leq \frac{\epsilon_0}{2}+\frac{\epsilon_0}{2}=\epsilon_0$$, if $$n\geq N_0$$.
 
 
 
