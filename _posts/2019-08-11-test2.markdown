@@ -1,6 +1,7 @@
 ---
 layout: post
 title: test2
+category: "about math"
 ---
 <head>
 <script type="text/javascript" async

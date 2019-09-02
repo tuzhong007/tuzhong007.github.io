@@ -1,4 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-11T17:15:43+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">test2</title><link href="http://localhost:4000/2019/08/11/test2.html" rel="alternate" type="text/html" title="test2" /><published>2019-08-11T00:00:00+08:00</published><updated>2019-08-11T00:00:00+08:00</updated><id>http://localhost:4000/2019/08/11/test2</id><content type="html" xml:base="http://localhost:4000/2019/08/11/test2.html">&lt;head&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-02T17:22:07+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">Construction Ideas(THE RIEMANN-STIETJES INTEGRAL)</title><link href="http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral.html" rel="alternate" type="text/html" title="Construction Ideas(THE RIEMANN-STIETJES INTEGRAL)" /><published>2019-09-01T00:00:00+08:00</published><updated>2019-09-01T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral.html">&lt;head&gt;
+&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
+    &lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;&lt;strong&gt;6.6 Theorem&lt;/strong&gt; &lt;i&gt;Suppose &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt; is a monotonically increasing function on &lt;script type=&quot;math/tex&quot;&gt;[a,b]&lt;/script&gt;.  f &lt;script type=&quot;math/tex&quot;&gt;\in \mathscr{R}(\alpha)&lt;/script&gt; on &lt;script type=&quot;math/tex&quot;&gt;[a,b]&lt;/script&gt; if and only if for every &lt;script type=&quot;math/tex&quot;&gt;\epsilon&gt;0&lt;/script&gt; there exists a partition P such that&lt;/i&gt;&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}
+	U(P,f,\alpha)-L(P,f,\alpha)&amp;lt;\epsilon.
+\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;  This theorem provides a fundamental idea about solving questions like “how to check a function to be Riemann-integrable or not”. By definition, we have&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+U(P,f,\alpha)-L(P,f,\alpha)=\sum\limits_{i=1}^{n}(M_i-m_i)\Delta\alpha_{i},
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;where for a partition P,&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}
+\begin{aligned}
+M_i&amp;amp;=\sup f(x) \hspace{1cm}(x_{i-1}\leq x \leq x_{i}), \\
+m_i&amp;amp;=\inf f(x) \hspace{1cm}(x_{i-1}\leq x \leq x_{i}), \\
+\Delta\alpha_{i}&amp;amp;=\alpha(x_{i})-\alpha(x_{i-1}).
+\end{aligned}
+\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;  Given &lt;script type=&quot;math/tex&quot;&gt;\epsilon&gt;0&lt;/script&gt;. Naturally, we could imagine that if &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; is Riemann-integrable, then &lt;script type=&quot;math/tex&quot;&gt;\sum\limits_{i=1}^{n}(M_i-m_i)\Delta\alpha_{i}&lt;/script&gt; should be small enough for some partition P. We hope to construct some P which meet the requirement.&lt;/p&gt;
+
+&lt;p&gt;  There is an idea on constructing a suitable P. For each term, we either make &lt;script type=&quot;math/tex&quot;&gt;(M_i-m_i)&lt;/script&gt; or &lt;script type=&quot;math/tex&quot;&gt;\Delta\alpha_{i}&lt;/script&gt; small. Then this P may suffice.&lt;/p&gt;
+
+&lt;p&gt;  The proof of the theorem below should be an example.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6.8 Theorem&lt;/strong&gt; &lt;i&gt;If f is continuous on &lt;script type=&quot;math/tex&quot;&gt;[a, b]&lt;/script&gt; then f &lt;script type=&quot;math/tex&quot;&gt;\in \mathscr{R}(\alpha)&lt;/script&gt; on &lt;script type=&quot;math/tex&quot;&gt;[a,b]&lt;/script&gt;.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Proof&lt;/strong&gt; Given &lt;script type=&quot;math/tex&quot;&gt;\epsilon&gt;0&lt;/script&gt;. Since &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; is continuous, and &lt;script type=&quot;math/tex&quot;&gt;[a,b]&lt;/script&gt; is compact, we know &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; is uniformly continuous, i.e., given &lt;script type=&quot;math/tex&quot;&gt;\epsilon&gt;0&lt;/script&gt;, there exist a &lt;script type=&quot;math/tex&quot;&gt;\delta&gt;0&lt;/script&gt; such that &lt;script type=&quot;math/tex&quot;&gt;\forall x,y\in [a,b]&lt;/script&gt;, if &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+d(x,y)&lt;\delta %]]&gt;&lt;/script&gt;, then &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+d(f(x),f(y))&lt;\epsilon %]]&gt;&lt;/script&gt;. Hence, if we choose a partition with &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\Delta\alpha_{i}&lt;\delta %]]&gt;&lt;/script&gt;, then &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+(M_i-m_i)&lt;\epsilon %]]&gt;&lt;/script&gt;. We thus get&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}
+\begin{aligned}
+U(P,f,\alpha)-L(P,f,\alpha)&amp;amp;=\sum\limits_{i=1}^{n}(M_i-m_i)\Delta\alpha_{i} \\
+&amp;amp;&amp;lt; \epsilon\sum\limits_{i=1}^{n}\Delta\alpha_{i} \\
+&amp;amp;= \epsilon (\alpha(b)-\alpha(a)).
+\end{aligned}
+\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;Since &lt;script type=&quot;math/tex&quot;&gt;\epsilon&lt;/script&gt; is arbitrary, for each &lt;script type=&quot;math/tex&quot;&gt;\eta&gt;0&lt;/script&gt;, we pick &lt;script type=&quot;math/tex&quot;&gt;\epsilon&lt;/script&gt; which satisfy the inequality &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\epsilon (\alpha(b)-\alpha(a))&lt;\eta %]]&gt;&lt;/script&gt; . We finally get&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}
+\begin{aligned}
+U(P,f,\alpha)-L(P,f,\alpha)&amp;lt;\eta,
+\end{aligned}
+\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;and therefore &lt;script type=&quot;math/tex&quot;&gt;f\in \mathscr{R(\alpha)}&lt;/script&gt;.&lt;/p&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">test2</title><link href="http://localhost:4000/about%20math/2019/08/11/test2.html" rel="alternate" type="text/html" title="test2" /><published>2019-08-11T00:00:00+08:00</published><updated>2019-08-11T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/08/11/test2</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/08/11/test2.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
@@ -78,7 +164,7 @@ $$
 A_n&lt;\epsilon_2(2) %]]&gt;&lt;/script&gt;. Then we let &lt;script type=&quot;math/tex&quot;&gt;\epsilon_2=\frac{\epsilon_0}{2}&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;N_0=max\{N_1,N_2\}&lt;/script&gt;. Hence, &lt;script type=&quot;math/tex&quot;&gt;\mid\sigma_n-s\mid \leq A_n+\frac{\epsilon_0}{2}\leq \frac{\epsilon_0}{2}+\frac{\epsilon_0}{2}=\epsilon_0&lt;/script&gt;, if &lt;script type=&quot;math/tex&quot;&gt;n\geq N_0&lt;/script&gt;.&lt;/p&gt;
 
 &lt;p&gt;Thus we obtain the conclusion that &lt;script type=&quot;math/tex&quot;&gt;\forall \epsilon_0&gt;0&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;\exists N_0&gt;0&lt;/script&gt;, s.t. &lt;script type=&quot;math/tex&quot;&gt;\forall n\geq N_0&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-\mid\sigma_n-s\mid&lt;\epsilon_0 %]]&gt;&lt;/script&gt;, which means that &lt;script type=&quot;math/tex&quot;&gt;\lim{\sigma_n}=s&lt;/script&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">test1</title><link href="http://localhost:4000/jekyll/update/2019/08/10/test1.html" rel="alternate" type="text/html" title="test1" /><published>2019-08-10T23:45:59+08:00</published><updated>2019-08-10T23:45:59+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/10/test1</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/10/test1.html">&lt;head&gt;
+\mid\sigma_n-s\mid&lt;\epsilon_0 %]]&gt;&lt;/script&gt;, which means that &lt;script type=&quot;math/tex&quot;&gt;\lim{\sigma_n}=s&lt;/script&gt;.&lt;/p&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">test1</title><link href="http://localhost:4000/about%20math/2019/08/10/test1.html" rel="alternate" type="text/html" title="test1" /><published>2019-08-10T23:45:59+08:00</published><updated>2019-08-10T23:45:59+08:00</updated><id>http://localhost:4000/about%20math/2019/08/10/test1</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/08/10/test1.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
@@ -95,4 +181,4 @@ $$
 \end{equation}
 $$
 &lt;/center&gt;
-&lt;p&gt;Then we get &lt;script type=&quot;math/tex&quot;&gt;x=1&lt;/script&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;Then we get &lt;script type=&quot;math/tex&quot;&gt;x=1&lt;/script&gt;.&lt;/p&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry></feed>
