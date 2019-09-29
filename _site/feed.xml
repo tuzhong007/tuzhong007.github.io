@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-02T17:22:07+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">Construction Ideas(THE RIEMANN-STIETJES INTEGRAL)</title><link href="http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral.html" rel="alternate" type="text/html" title="Construction Ideas(THE RIEMANN-STIETJES INTEGRAL)" /><published>2019-09-01T00:00:00+08:00</published><updated>2019-09-01T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral.html">&lt;head&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-29T20:20:42+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">norm space(SEQUENCE AND SERIES OF FUNCTIONS)</title><link href="http://localhost:4000/about%20math/2019/09/29/norm_space.html" rel="alternate" type="text/html" title="norm space(SEQUENCE AND SERIES OF FUNCTIONS)" /><published>2019-09-29T00:00:00+08:00</published><updated>2019-09-29T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/09/29/norm_space</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/09/29/norm_space.html">&lt;head&gt;
+&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
+    &lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt; After studying some global properties of series of functions, the concept of norm space furnished a new version to describe them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;7.14 Definition&lt;/strong&gt; If &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is a metric space, &lt;script type=&quot;math/tex&quot;&gt;\mathscr{C}(X)&lt;/script&gt; will denote the set of all complex-valued, continuous, bounded    functions with domain &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;  We associate with each &lt;script type=&quot;math/tex&quot;&gt;f\in\mathscr{C}(X)&lt;/script&gt; its &lt;i&gt;supremum norm&lt;/i&gt;&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\Vert f\Vert=\sup\limits_{x\in X}\vert f(x)\vert.
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;h=f+g&lt;/script&gt;, then&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\vert h(x)\vert \leq \vert f(x)\vert+\vert g(x)\vert\leq \vert f\vert+\vert g\vert
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;for all &lt;script type=&quot;math/tex&quot;&gt;x\in X&lt;/script&gt;. Hence&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\Vert f+g\Vert \leq \Vert f\Vert+\Vert g\Vert.
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;  If we define the distance between &lt;script type=&quot;math/tex&quot;&gt;f\in\mathscr{C}(X)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;g\in\mathscr{C}(X)&lt;/script&gt; to be &lt;script type=&quot;math/tex&quot;&gt;\Vert f-g\Vert&lt;/script&gt;, it follows that &lt;script type=&quot;math/tex&quot;&gt;\mathscr{C}(X)&lt;/script&gt; becomes a metric space.&lt;/p&gt;
+
+&lt;p&gt;  A new version mentioned above, is that we can restate some previous theorems as follows:&lt;/p&gt;
+
+&lt;p&gt;  &lt;i&gt;A sequence &lt;script type=&quot;math/tex&quot;&gt;\{f_n\}&lt;/script&gt; converges to f with respect to the metric of &lt;script type=&quot;math/tex&quot;&gt;\mathscr{C}(X)&lt;/script&gt; if and only if &lt;script type=&quot;math/tex&quot;&gt;f_n\rightarrow f&lt;/script&gt; uniformly on &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;  This is an example of the &lt;i&gt;supremum norm&lt;/i&gt;.  We could also define different norm, like:&lt;/p&gt;
+
+&lt;center&gt;
+
+
+$$
+\Vert f\Vert=(\int_{0}^{1}\vert f(x)\vert^{p}dx)^{1/p},
+$$
+&lt;/center&gt;
+
+&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;X=[0,1]&lt;/script&gt;.&lt;/p&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">Construction Ideas(THE RIEMANN-STIETJES INTEGRAL)</title><link href="http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral.html" rel="alternate" type="text/html" title="Construction Ideas(THE RIEMANN-STIETJES INTEGRAL)" /><published>2019-09-01T00:00:00+08:00</published><updated>2019-09-01T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
