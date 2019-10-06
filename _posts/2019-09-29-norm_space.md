@@ -52,7 +52,7 @@ $$
 
 &#8195;&#8195;<i>A sequence $$\{f_n\}$$ converges to f with respect to the metric of $$\mathscr{C}(X)$$ if and only if $$f_n\rightarrow f$$ uniformly on $$X$$.</i>
 
-&#8195;&#8195;This is an example of the <i>supremum norm</i>.  We could also define different norm, like:
+&#8195;&#8195;This is an example of the <i>supremum norm</i>.  We could also define some different norms, like:
 
 <center>
 
