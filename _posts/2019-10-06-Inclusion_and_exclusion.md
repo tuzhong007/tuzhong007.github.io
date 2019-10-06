@@ -95,3 +95,78 @@ $$
 </center>
 
 i.e., $$a^{p-2}$$ is the inverse of $$a$$.
+<br>
+<br>
+my code:
+``` c++
+#include<bits/stdc++.h>
+const int mod =1e9+7;
+typedef long long ll;
+int n,k;
+namespace NT{
+	ll tm(ll x){
+		return (x%mod+mod)%mod;
+	}
+	ll pw(ll x,ll y){
+		ll res=1,bas=x;
+		while(y){
+			if(y&1){
+				res=tm(res*bas);
+			}
+			bas=tm(bas*bas);
+			y>>=1;
+		}
+		return res;
+	}
+	ll ginv(ll x){
+		return pw(x,mod-2);
+	}
+	ll fac[255],Com[255];
+	ll Ans;
+	void getfac(){
+		fac[0]=1;
+		ll F=1;
+		for(int i=1;i<=n;++i){
+			F=tm(F*i);
+			fac[i]=F;
+		}
+	}
+	void getCom(){
+		for(int i=0;i<=n;++i){
+			ll cur=tm(fac[n]*ginv(fac[n-i]));
+			cur=tm(cur*ginv(fac[i]));
+			Com[i]=cur;
+//			printf("%lld ",Com[i]);
+		}
+	}
+	void getAns(){
+		for(int i=0;i<=n;++i){
+			for(int j=0;j<=n;++j){
+				ll coe=1;
+				if((i+j+1)%2==0)coe=-1;
+				ll sij=tm(Com[i]*Com[j]);
+				ll k_1p=pw(k-1,n*(i+j)-i*j);
+				ll kp=pw(k,n*n+i*j-n*(i+j));
+				sij=tm(sij*k_1p);
+				sij=tm(sij*kp);
+				Ans=tm(Ans+coe*sij);
+//				printf("%lld ",sij*coe);
+			}
+		}
+	}
+	void work(){
+		getfac();
+		getCom();
+		getAns();
+		printf("%lld",Ans);
+	}
+}
+using namespace NT;
+int main(){
+	scanf("%d%d",&n,&k);
+	work();
+	return 0;
+}
+ 
+// printf("%lld",);
+```
