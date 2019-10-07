@@ -25,3 +25,4 @@ $$
 </center>
 Then we get $$x=1$$.
 
+{% include post.html %}

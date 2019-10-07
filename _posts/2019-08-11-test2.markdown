@@ -84,3 +84,5 @@ Put $$A_n=\frac{\sum_{i=0}^{N_1-1}\mid s_i-s \mid}{n+1}$$. We can see $$\lim A_n
 
 
 Thus we obtain the conclusion that $$\forall \epsilon_0>0$$, $$\exists N_0>0$$, s.t. $$\forall n\geq N_0$$, $$\mid\sigma_n-s\mid<\epsilon_0$$, which means that $$\lim{\sigma_n}=s$$.
+
+{% include post.html %}

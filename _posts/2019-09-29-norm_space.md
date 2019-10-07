@@ -66,4 +66,4 @@ $$
 
 where $$X=[0,1]$$.
 
-
+{% include post.html %}

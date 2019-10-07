@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-07T10:44:14+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">Inclusion-exclusion</title><link href="http://localhost:4000/about%20cs/2019/10/06/Inclusion_and_exclusion.html" rel="alternate" type="text/html" title="Inclusion-exclusion" /><published>2019-10-06T00:00:00+08:00</published><updated>2019-10-06T00:00:00+08:00</updated><id>http://localhost:4000/about%20cs/2019/10/06/Inclusion_and_exclusion</id><content type="html" xml:base="http://localhost:4000/about%20cs/2019/10/06/Inclusion_and_exclusion.html">&lt;head&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-07T21:56:11+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">Inclusion-exclusion</title><link href="http://localhost:4000/about%20cs/2019/10/06/Inclusion_and_exclusion.html" rel="alternate" type="text/html" title="Inclusion-exclusion" /><published>2019-10-06T00:00:00+08:00</published><updated>2019-10-06T00:00:00+08:00</updated><id>http://localhost:4000/about%20cs/2019/10/06/Inclusion_and_exclusion</id><content type="html" xml:base="http://localhost:4000/about%20cs/2019/10/06/Inclusion_and_exclusion.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
@@ -164,7 +164,24 @@ my code:&lt;/p&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
  
 &lt;span class=&quot;c1&quot;&gt;// printf(&quot;%lld&quot;,);
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="about cs" /><summary type="html">  The principle of inclusion-exclusion provides us with a technique for solving problems like couting. For example, how many numbers not exceeding are divisible by or ?</summary></entry><entry><title type="html">norm space(SEQUENCE AND SERIES OF FUNCTIONS)</title><link href="http://localhost:4000/about%20math/2019/09/29/norm_space.html" rel="alternate" type="text/html" title="norm space(SEQUENCE AND SERIES OF FUNCTIONS)" /><published>2019-09-29T00:00:00+08:00</published><updated>2019-09-29T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/09/29/norm_space</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/09/29/norm_space.html">&lt;head&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div id=&quot;lv-container&quot; data-id=&quot;city&quot; data-uid=&quot;MTAyMC80Njk4Ni8yMzQ4Ng==&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot;&gt;
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	&lt;/script&gt;
+&lt;noscript&gt; 为正常使用来必力评论功能请激活JavaScript&lt;/noscript&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="about cs" /><summary type="html">  The principle of inclusion-exclusion provides us with a technique for solving problems like couting. For example, how many numbers not exceeding are divisible by or ?</summary></entry><entry><title type="html">norm space(SEQUENCE AND SERIES OF FUNCTIONS)</title><link href="http://localhost:4000/about%20math/2019/09/29/norm_space.html" rel="alternate" type="text/html" title="norm space(SEQUENCE AND SERIES OF FUNCTIONS)" /><published>2019-09-29T00:00:00+08:00</published><updated>2019-09-29T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/09/29/norm_space</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/09/29/norm_space.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
@@ -219,7 +236,24 @@ $$
 $$
 &lt;/center&gt;
 
-&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;X=[0,1]&lt;/script&gt;.&lt;/p&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">Construction Ideas(THE RIEMANN-STIETJES INTEGRAL)</title><link href="http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral.html" rel="alternate" type="text/html" title="Construction Ideas(THE RIEMANN-STIETJES INTEGRAL)" /><published>2019-09-01T00:00:00+08:00</published><updated>2019-09-01T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral.html">&lt;head&gt;
+&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;X=[0,1]&lt;/script&gt;.&lt;/p&gt;
+
+&lt;div id=&quot;lv-container&quot; data-id=&quot;city&quot; data-uid=&quot;MTAyMC80Njk4Ni8yMzQ4Ng==&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot;&gt;
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	&lt;/script&gt;
+&lt;noscript&gt; 为正常使用来必力评论功能请激活JavaScript&lt;/noscript&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">Construction Ideas(THE RIEMANN-STIETJES INTEGRAL)</title><link href="http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral.html" rel="alternate" type="text/html" title="Construction Ideas(THE RIEMANN-STIETJES INTEGRAL)" /><published>2019-09-01T00:00:00+08:00</published><updated>2019-09-01T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
@@ -305,7 +339,24 @@ $$
 
 &lt;/center&gt;
 
-&lt;p&gt;and therefore &lt;script type=&quot;math/tex&quot;&gt;f\in \mathscr{R(\alpha)}&lt;/script&gt;.&lt;/p&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">test2</title><link href="http://localhost:4000/about%20math/2019/08/11/test2.html" rel="alternate" type="text/html" title="test2" /><published>2019-08-11T00:00:00+08:00</published><updated>2019-08-11T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/08/11/test2</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/08/11/test2.html">&lt;head&gt;
+&lt;p&gt;and therefore &lt;script type=&quot;math/tex&quot;&gt;f\in \mathscr{R(\alpha)}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;div id=&quot;lv-container&quot; data-id=&quot;city&quot; data-uid=&quot;MTAyMC80Njk4Ni8yMzQ4Ng==&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot;&gt;
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	&lt;/script&gt;
+&lt;noscript&gt; 为正常使用来必力评论功能请激活JavaScript&lt;/noscript&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">test2</title><link href="http://localhost:4000/about%20math/2019/08/11/test2.html" rel="alternate" type="text/html" title="test2" /><published>2019-08-11T00:00:00+08:00</published><updated>2019-08-11T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/08/11/test2</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/08/11/test2.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
@@ -385,7 +436,24 @@ $$
 A_n&lt;\epsilon_2(2) %]]&gt;&lt;/script&gt;. Then we let &lt;script type=&quot;math/tex&quot;&gt;\epsilon_2=\frac{\epsilon_0}{2}&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;N_0=max\{N_1,N_2\}&lt;/script&gt;. Hence, &lt;script type=&quot;math/tex&quot;&gt;\mid\sigma_n-s\mid \leq A_n+\frac{\epsilon_0}{2}\leq \frac{\epsilon_0}{2}+\frac{\epsilon_0}{2}=\epsilon_0&lt;/script&gt;, if &lt;script type=&quot;math/tex&quot;&gt;n\geq N_0&lt;/script&gt;.&lt;/p&gt;
 
 &lt;p&gt;Thus we obtain the conclusion that &lt;script type=&quot;math/tex&quot;&gt;\forall \epsilon_0&gt;0&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;\exists N_0&gt;0&lt;/script&gt;, s.t. &lt;script type=&quot;math/tex&quot;&gt;\forall n\geq N_0&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-\mid\sigma_n-s\mid&lt;\epsilon_0 %]]&gt;&lt;/script&gt;, which means that &lt;script type=&quot;math/tex&quot;&gt;\lim{\sigma_n}=s&lt;/script&gt;.&lt;/p&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">test1</title><link href="http://localhost:4000/about%20math/2019/08/10/test1.html" rel="alternate" type="text/html" title="test1" /><published>2019-08-10T23:45:59+08:00</published><updated>2019-08-10T23:45:59+08:00</updated><id>http://localhost:4000/about%20math/2019/08/10/test1</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/08/10/test1.html">&lt;head&gt;
+\mid\sigma_n-s\mid&lt;\epsilon_0 %]]&gt;&lt;/script&gt;, which means that &lt;script type=&quot;math/tex&quot;&gt;\lim{\sigma_n}=s&lt;/script&gt;.&lt;/p&gt;
+
+&lt;div id=&quot;lv-container&quot; data-id=&quot;city&quot; data-uid=&quot;MTAyMC80Njk4Ni8yMzQ4Ng==&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot;&gt;
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	&lt;/script&gt;
+&lt;noscript&gt; 为正常使用来必力评论功能请激活JavaScript&lt;/noscript&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">test1</title><link href="http://localhost:4000/about%20math/2019/08/10/test1.html" rel="alternate" type="text/html" title="test1" /><published>2019-08-10T23:45:59+08:00</published><updated>2019-08-10T23:45:59+08:00</updated><id>http://localhost:4000/about%20math/2019/08/10/test1</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/08/10/test1.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
@@ -402,4 +470,21 @@ $$
 \end{equation}
 $$
 &lt;/center&gt;
-&lt;p&gt;Then we get &lt;script type=&quot;math/tex&quot;&gt;x=1&lt;/script&gt;.&lt;/p&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;Then we get &lt;script type=&quot;math/tex&quot;&gt;x=1&lt;/script&gt;.&lt;/p&gt;
+
+&lt;div id=&quot;lv-container&quot; data-id=&quot;city&quot; data-uid=&quot;MTAyMC80Njk4Ni8yMzQ4Ng==&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot;&gt;
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	&lt;/script&gt;
+&lt;noscript&gt; 为正常使用来必力评论功能请激活JavaScript&lt;/noscript&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry></feed>
