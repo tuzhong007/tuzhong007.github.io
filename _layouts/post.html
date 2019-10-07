@@ -1,3 +1,4 @@
+<!--
 {% if site.comment_gitment_repo %}
 <div id="gitmentContainer"></div>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
@@ -15,3 +16,18 @@
     gitment.render('gitmentContainer')
 </script>
 {% endif %}
+-->
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'tuzhong007',
+    repo: 'tuzhong007.github.io',
+    oauth: {
+        client_id: 'bdd55c1ce60af273123c',
+        client_secret: '5f0ce28cbdb081acaeb10ef4e0d6a270cc3694d0',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
