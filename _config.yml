@@ -31,6 +31,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+#gitment
+comment_gitment_repo: tuzhong007.github.io
+comment_gitment_clientId: bdd55c1ce60af273123c
+comment_gitment_clientSecret: 5f0ce28cbdb081acaeb10ef4e0d6a270cc3694d0
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
