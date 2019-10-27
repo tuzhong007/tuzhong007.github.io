@@ -1,4 +1,153 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-07T21:56:11+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">Inclusion-exclusion</title><link href="http://localhost:4000/about%20cs/2019/10/06/Inclusion_and_exclusion.html" rel="alternate" type="text/html" title="Inclusion-exclusion" /><published>2019-10-06T00:00:00+08:00</published><updated>2019-10-06T00:00:00+08:00</updated><id>http://localhost:4000/about%20cs/2019/10/06/Inclusion_and_exclusion</id><content type="html" xml:base="http://localhost:4000/about%20cs/2019/10/06/Inclusion_and_exclusion.html">&lt;head&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-27T16:13:52+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">relations between some double sequences and series of functions</title><link href="http://localhost:4000/about%20math/2019/10/26/relation-between-some-double-sequnces-and-series-of-functions.html" rel="alternate" type="text/html" title="relations between some double sequences and series of functions" /><published>2019-10-26T00:00:00+08:00</published><updated>2019-10-26T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/10/26/relation-between-some-double-sequnces-and-series-of-functions</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/10/26/relation-between-some-double-sequnces-and-series-of-functions.html">&lt;head&gt;
+&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
+    &lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;&lt;strong&gt;8.3 Theorem&lt;/strong&gt; &lt;i&gt; Given a double sequence &lt;script type=&quot;math/tex&quot;&gt;\{a_{i,j}\}&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;i=1,2,3,\ldots, j=1,2,3,\ldots,&lt;/script&gt; suppose that &lt;/i&gt;&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}	\sum_{j=1}^{\infty}\vert a_{i,j}\vert=b_i\hspace{1cm}(i=1,2,3,\ldots)\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;&lt;i&gt;and &lt;script type=&quot;math/tex&quot;&gt;\sum b_i&lt;/script&gt; converges. Then&lt;/i&gt;&lt;/p&gt;
+&lt;center&gt;
+$$
+\begin{equation}	\sum_{i=1}^{\infty}\sum_{j=1}^{\infty}a_{i,j}=	\sum_{j=1}^{\infty}\sum_{i=1}^{\infty}a_{i,j}.\end{equation}
+$$
+&lt;/center&gt;
+
+&lt;p&gt;&lt;strong&gt;Proof&lt;/strong&gt; Let &lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt; be a countable set, consisting of the points &lt;script type=&quot;math/tex&quot;&gt;x_0, x_1, x_2, \ldots,&lt;/script&gt; and suppose &lt;script type=&quot;math/tex&quot;&gt;x_{n} \rightarrow  x_{0}&lt;/script&gt; as &lt;script type=&quot;math/tex&quot;&gt;n \rightarrow \infty&lt;/script&gt;. Define&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}	\begin{aligned}		f_i(x_n)&amp;amp;=\sum_{j=1}^{n}a_{i,j} \hspace{1cm}(i,n=1,2,3,\ldots),\\		f_i(x_0)&amp;amp;=\sum_{j=1}^{\infty}a_{i,j} \hspace{1cm}(i=1,2,3,\ldots),\\		g(x)&amp;amp;=\sum_{i=1}^{\infty}f_{i}(x) \hspace{1cm}(x\in E).	\end{aligned}\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;And they are pretty well-defined. Since&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}	\lim_{n\rightarrow\infty} f_i(x_n)=f_i(x_0)\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}	\lim_{n \rightarrow \infty}x_n=x_0,\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f_i&lt;/script&gt; is continuous at &lt;script type=&quot;math/tex&quot;&gt;x_{0}&lt;/script&gt;. In addition, since&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}	f_i(x_0)\leq \sum_{j=1}^{\infty}\vert a_{i,j}\vert=b_i\hspace{1cm}(i=1,2,3,\ldots),\\	f_i(x_n)\leq \sum_{j=1}^{\infty}\vert a_{i,j}\vert=b_i\hspace{1cm}(i=1,2,3,\ldots),\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;and  &lt;script type=&quot;math/tex&quot;&gt;\sum b_i&lt;/script&gt; converges, we know that &lt;script type=&quot;math/tex&quot;&gt;g(x)=\sum f_i&lt;/script&gt; converges uniformly, thus &lt;script type=&quot;math/tex&quot;&gt;g&lt;/script&gt; is continuous at &lt;script type=&quot;math/tex&quot;&gt;x_{0}&lt;/script&gt; too. The continuity of &lt;script type=&quot;math/tex&quot;&gt;g&lt;/script&gt; implies that&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}	\begin{aligned}		\lim_{n \rightarrow  \infty}g(x_n)&amp;amp;=g(x_0), \\		g(x_0)=\sum_{i=1}^{\infty}\sum_{j=1}^{\infty}a_{i,j}&amp;amp;=\lim_{n \rightarrow  \infty}g(x_n)=\lim_{n \rightarrow  \infty}\sum_{i=1}^{\infty}\sum_{j=1}^{n}a_{i,j}.	\end{aligned}\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;  Note that&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}	g(x_n)=\sum_{i=1}^{\infty}\sum_{j=1}^{n}a_{i,j}	=\sum_{j=1}^{n}\sum_{i=1}^{\infty}a_{i,j},\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;which can be proved by using the mathematical induction.&lt;/p&gt;
+
+&lt;p&gt;  Firstly, it’s obivious that the equation is correct when &lt;script type=&quot;math/tex&quot;&gt;n=1&lt;/script&gt;. Assume that it holds for &lt;script type=&quot;math/tex&quot;&gt;n=k(k\in N^{*})&lt;/script&gt;. i.e.,&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}	g(x_k)=\sum_{i=1}^{\infty}\sum_{j=1}^{k}a_{i,j}=	\sum_{j=1}^{k}\sum_{i=1}^{\infty}a_{i,j},\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;and then consider the situation where &lt;script type=&quot;math/tex&quot;&gt;n=k+1&lt;/script&gt;. Since&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}	\begin{aligned}		g(x_{k+1})&amp;amp;=\sum_{i=1}^{\infty}\sum_{j=1}^{k+1}a_{i,j}=		\sum_{i=1}^{\infty}\sum_{j=1}^{k}a_{i,j}+\sum_{i=1}^{\infty}a_{i,k+1}\\		&amp;amp;=\sum_{j=1}^{k}\sum_{i=1}^{\infty}a_{i,j}+\sum_{i=1}^{\infty}a_{i,k+1}\\		&amp;amp;=\sum_{j=1}^{k+1}\sum_{i=1}^{\infty}a_{i,j},	\end{aligned}\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;hence we conclude that&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}	g(x_n)=\sum_{i=1}^{\infty}\sum_{j=1}^{n}a_{i,j}	=\sum_{j=1}^{n}\sum_{i=1}^{\infty}a_{i,j}.\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;  Thus,&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}	\begin{aligned}		g(x_0)=\sum_{i=1}^{\infty}\sum_{j=1}^{\infty}a_{i,j}&amp;amp;=\lim_{n \rightarrow  \infty}g(x_n)=\lim_{n \rightarrow  \infty}\sum_{i=1}^{\infty}\sum_{j=1}^{n}a_{i,j}\\		&amp;amp;=\lim_{n \rightarrow  \infty}\sum_{j=1}^{n}\sum_{i=1}^{\infty}a_{i,j}\\		&amp;amp;=\sum_{j=1}^{\infty}\sum_{i=1}^{\infty}a_{i,j},	\end{aligned}\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;i.e.,&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{equation}	\sum_{i=1}^{\infty}\sum_{j=1}^{\infty}a_{i,j}=	\sum_{j=1}^{\infty}\sum_{i=1}^{\infty}a_{i,j}.\end{equation}
+$$
+
+&lt;/center&gt;
+
+&lt;div id=&quot;lv-container&quot; data-id=&quot;city&quot; data-uid=&quot;MTAyMC80Njk4Ni8yMzQ4Ng==&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot;&gt;
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	&lt;/script&gt;
+&lt;noscript&gt; 为正常使用来必力评论功能请激活JavaScript&lt;/noscript&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">Inclusion-exclusion</title><link href="http://localhost:4000/about%20cs/2019/10/06/Inclusion_and_exclusion.html" rel="alternate" type="text/html" title="Inclusion-exclusion" /><published>2019-10-06T00:00:00+08:00</published><updated>2019-10-06T00:00:00+08:00</updated><id>http://localhost:4000/about%20cs/2019/10/06/Inclusion_and_exclusion</id><content type="html" xml:base="http://localhost:4000/about%20cs/2019/10/06/Inclusion_and_exclusion.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
