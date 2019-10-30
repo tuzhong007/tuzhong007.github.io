@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-27T16:13:52+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">relations between some double sequences and series of functions</title><link href="http://localhost:4000/about%20math/2019/10/26/relation-between-some-double-sequnces-and-series-of-functions.html" rel="alternate" type="text/html" title="relations between some double sequences and series of functions" /><published>2019-10-26T00:00:00+08:00</published><updated>2019-10-26T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/10/26/relation-between-some-double-sequnces-and-series-of-functions</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/10/26/relation-between-some-double-sequnces-and-series-of-functions.html">&lt;head&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-30T16:04:19+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">a problem arised when using mathematical induction</title><link href="http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction.html" rel="alternate" type="text/html" title="a problem arised when using mathematical induction" /><published>2019-10-30T00:00:00+08:00</published><updated>2019-10-30T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction.html">&lt;head&gt;
+&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
+    &lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;  When I was tring to work out the proof of 
+&lt;a href=&quot;https://tuzhong007.github.io/about%20math/2019/10/26/relation-between-some-double-sequnces-and-series-of-functions.html&quot;&gt;the theorem 8.3(Dominated convergence theorem)&lt;/a&gt;, in one step I applied the mathematical induction to show that&lt;/p&gt;
+&lt;center&gt;
+$$
+\begin{equation}	\sum_{i=1}^{\infty}\sum_{j=1}^{n}a_{i,j}	=\sum_{j=1}^{n}\sum_{i=1}^{\infty}a_{i,j}.\end{equation}
+$$
+&lt;/center&gt;
+&lt;p&gt;  Then it occurs to me, that why can’t I just simply letting &lt;script type=&quot;math/tex&quot;&gt;n\rightarrow \infty&lt;/script&gt; and get the intended result? After thinking for a while(referring to 4 days), I maybe understood eventually. The reason is that when &lt;script type=&quot;math/tex&quot;&gt;n\rightarrow \infty&lt;/script&gt;, the series must include infinitely many terms. And since there is not an &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; s.t. &lt;script type=&quot;math/tex&quot;&gt;n+1=\infty&lt;/script&gt;, the situation where the series includes infinitely many terms can’t be reached by the recursion process of the mathematical induction.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div id=&quot;lv-container&quot; data-id=&quot;city&quot; data-uid=&quot;MTAyMC80Njk4Ni8yMzQ4Ng==&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot;&gt;
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	&lt;/script&gt;
+&lt;noscript&gt; 为正常使用来必力评论功能请激活JavaScript&lt;/noscript&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">relations between some double sequences and series of functions</title><link href="http://localhost:4000/about%20math/2019/10/26/relation-between-some-double-sequnces-and-series-of-functions.html" rel="alternate" type="text/html" title="relations between some double sequences and series of functions" /><published>2019-10-26T00:00:00+08:00</published><updated>2019-10-26T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/10/26/relation-between-some-double-sequnces-and-series-of-functions</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/10/26/relation-between-some-double-sequnces-and-series-of-functions.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
