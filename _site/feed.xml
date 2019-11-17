@@ -1,4 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-30T16:04:19+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">a problem arised when using mathematical induction</title><link href="http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction.html" rel="alternate" type="text/html" title="a problem arised when using mathematical induction" /><published>2019-10-30T00:00:00+08:00</published><updated>2019-10-30T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction.html">&lt;head&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-17T22:19:53+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">linear transformations and derivatives</title><link href="http://localhost:4000/about%20math/2019/11/16/linear-transformations-and-derivatives.html" rel="alternate" type="text/html" title="linear transformations and derivatives" /><published>2019-11-16T00:00:00+08:00</published><updated>2019-11-16T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/11/16/linear-transformations-and-derivatives</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/11/16/linear-transformations-and-derivatives.html">&lt;head&gt;
+&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
+    &lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;&lt;strong&gt;Linear transformations&lt;/strong&gt; A mapping &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt; from a vector space &lt;script type=&quot;math/tex&quot;&gt;V&lt;/script&gt; into a vector space &lt;script type=&quot;math/tex&quot;&gt;W&lt;/script&gt; is said to be a &lt;i&gt;linear transformation&lt;/i&gt; if&lt;/p&gt;
+
+&lt;center&gt;
+$$
+\begin{equation}    	\begin{aligned}          	L(\alpha \textbf{v}_{1}+\beta \textbf{v}_{2})=    	\alpha L(\textbf{v}_{1})+\beta L(\textbf{v}_{2})	\end{aligned}\end{equation}
+$$
+&lt;/center&gt;
+
+&lt;p&gt;for all &lt;script type=&quot;math/tex&quot;&gt;\textbf{v}_{1} ,\textbf{v}_{2} \in V&lt;/script&gt; and for all scalars &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\beta&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;  In fact, for every linear transformation there exists a matrix corresponding to it.&lt;/p&gt;
+
+&lt;p&gt;  Consider a linear transformation &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt; from &lt;script type=&quot;math/tex&quot;&gt;V&lt;/script&gt; into &lt;script type=&quot;math/tex&quot;&gt;W&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;V&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;W&lt;/script&gt; are vector spaces of dimension &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt;, respectively. Let &lt;script type=&quot;math/tex&quot;&gt;E=\{\textbf{v}_{1} ,\textbf{v}_{2}, \dots, \textbf{v}_{n}\}&lt;/script&gt; be an ordered basis for &lt;script type=&quot;math/tex&quot;&gt;V&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;F=\{\textbf{w}_{1} ,\textbf{w}_{2}, \dots, \textbf{w}_{m}\}&lt;/script&gt; be an ordered basis for &lt;script type=&quot;math/tex&quot;&gt;W&lt;/script&gt;. Let &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt; be a linear transformation mapping &lt;script type=&quot;math/tex&quot;&gt;V&lt;/script&gt; into &lt;script type=&quot;math/tex&quot;&gt;W&lt;/script&gt;. If &lt;script type=&quot;math/tex&quot;&gt;\textbf{v}&lt;/script&gt; is any vector in &lt;script type=&quot;math/tex&quot;&gt;V&lt;/script&gt;, then we can express &lt;script type=&quot;math/tex&quot;&gt;\textbf{v}&lt;/script&gt; in terms of the basis &lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt;:&lt;/p&gt;
+
+&lt;center&gt;
+$$
+\begin{equation}    	\begin{aligned}          	\textbf{v}=\sum_{j=1}^{n}x_{j} \textbf{v}_{j}.	\end{aligned}\end{equation}
+$$
+&lt;/center&gt;
+&lt;p&gt;  For &lt;script type=&quot;math/tex&quot;&gt;j=1,2,\dots,n&lt;/script&gt;, let &lt;script type=&quot;math/tex&quot;&gt;\textbf{a}_{j}=(a_{1j},a_{2j},\dots,a_{mj})^{T}&lt;/script&gt; be the coordinate vector of  &lt;script type=&quot;math/tex&quot;&gt;L(\textbf{v}_{j})&lt;/script&gt; with respect to &lt;script type=&quot;math/tex&quot;&gt;\{\textbf{w}_{1} ,\textbf{w}_{2}, \dots, \textbf{w}_{m}\}&lt;/script&gt;; i.e.,&lt;/p&gt;
+&lt;center&gt;
+$$
+\begin{equation}    	\begin{aligned}          	L(\textbf{v}_{j})=\sum_{k=1}^{m}a_{kj} \textbf{w}_{k}.	\end{aligned}\end{equation}
+$$
+&lt;/center&gt;
+&lt;p&gt;Then,&lt;/p&gt;
+&lt;center&gt;
+$$
+\begin{equation}    	\begin{aligned}          	L(\textbf{v})&amp;amp;=L(\sum_{j=1}^{n}x_{j} \textbf{v}_{j}) \\    	&amp;amp;=\sum_{j=1}^{n}x_{j}L(\textbf{v}_{j}) \\    	&amp;amp;=\sum_{j=1}^{n}x_{j}(\sum_{k=1}^{m}a_{kj} \textbf{w}_{k}) \\    	&amp;amp;=\sum_{k=1}^{m}(\sum_{j=1}^{n}x_{j}a_{kj}) \textbf{w}_{k}.	\end{aligned}\end{equation}
+$$
+&lt;/center&gt;
+
+&lt;p&gt;  If we let &lt;script type=&quot;math/tex&quot;&gt;A=(a_{ij})=(\textbf{a}_{1},\textbf{a}_{2},\dots,\textbf{a}_{n})&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;y_{i}=\sum_{j=1}^{n}x_{j}a_{kj}&lt;/script&gt;, then&lt;/p&gt;
+&lt;center&gt;
+$$
+\begin{equation}    	\begin{aligned}          	\textbf{y}_{i}=(y_{1},y_{2},\dots,y_{m})^{T}=A\textbf{x}	\end{aligned}\end{equation}
+$$
+&lt;/center&gt;
+&lt;p&gt;is the coordinate vector of &lt;script type=&quot;math/tex&quot;&gt;L(\textbf{v})&lt;/script&gt; with respect to &lt;script type=&quot;math/tex&quot;&gt;\{\textbf{w}_{1} ,\textbf{w}_{2}, \dots, \textbf{w}_{m}\}&lt;/script&gt;. We therefore find a corresponding matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; to &lt;script type=&quot;math/tex&quot;&gt;L(V,W)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Derivatives&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;  If &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; is a real function with domain &lt;script type=&quot;math/tex&quot;&gt;(a,b) \subset R^{1}&lt;/script&gt; and if &lt;script type=&quot;math/tex&quot;&gt;x\in (a,b)&lt;/script&gt;, then &lt;script type=&quot;math/tex&quot;&gt;f'(x)&lt;/script&gt; is usually defined to be the real number&lt;/p&gt;
+
+&lt;center&gt;
+$$
+\begin{equation}    	\begin{aligned}          	\lim_{h\rightarrow0} \frac{f(x+h)-f(x)}{h},	\end{aligned}\end{equation}
+$$
+&lt;/center&gt;
+&lt;p&gt;provided, of course, that the limit exists. Thus&lt;/p&gt;
+
+&lt;center&gt;
+$$
+\begin{equation}    	\begin{aligned}          	f(x+h)-f(x)=f'(x)h+r(h)	\end{aligned}\end{equation}
+$$
+&lt;/center&gt;
+
+&lt;p&gt;where the “remainder” &lt;script type=&quot;math/tex&quot;&gt;r(h)&lt;/script&gt; is small, in the sense that&lt;/p&gt;
+&lt;center&gt;
+$$
+\begin{equation}    	\begin{aligned}          	\lim_{h\rightarrow0} \frac{r(h)}{h}=0.	\end{aligned}\end{equation}
+$$
+&lt;/center&gt;
+
+&lt;p&gt;  Note that the equality above might indicate that the difference &lt;script type=&quot;math/tex&quot;&gt;f(x+h)-f(x)&lt;/script&gt; could be approximated by a &lt;i&gt;linear function&lt;/i&gt; &lt;script type=&quot;math/tex&quot;&gt;f'(x)h&lt;/script&gt;. The point is, we could also regard the derivative of &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt;, this linear function, as a &lt;i&gt;linear operator&lt;/i&gt; on &lt;script type=&quot;math/tex&quot;&gt;R^{1}&lt;/script&gt; which takes &lt;script type=&quot;math/tex&quot;&gt;h&lt;/script&gt; to &lt;script type=&quot;math/tex&quot;&gt;f'(x)h&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;  Then we can naturally extend the concept of derivative to a higher dimensional space. In this case the derivative of function &lt;script type=&quot;math/tex&quot;&gt;\textbf{f}&lt;/script&gt; should be a linear transformation, or, equivalently, a matrix.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;9.11 Definition&lt;/b&gt; Suppose &lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt; is an open set in &lt;script type=&quot;math/tex&quot;&gt;R^{n}&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;\textbf{f}&lt;/script&gt; maps &lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt; into &lt;script type=&quot;math/tex&quot;&gt;R^{m}&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;\textbf{x}\in E&lt;/script&gt;. If there exists a linear transformation &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; of &lt;script type=&quot;math/tex&quot;&gt;R^{n}&lt;/script&gt; into &lt;script type=&quot;math/tex&quot;&gt;R^{m}&lt;/script&gt; such that&lt;/p&gt;
+
+&lt;center&gt;
+$$
+\begin{equation}    	\begin{aligned}          	\lim_{\textbf{h}\rightarrow0}     	\frac{\vert \textbf{f}(\textbf{x}+\textbf{h})-    	\textbf{f}(\textbf{x})-    	A\textbf{h}\vert}    	{\vert\textbf{h}\vert}=\textbf{0},	\end{aligned}\end{equation}
+$$
+&lt;/center&gt;
+
+&lt;p&gt;then we say that &lt;script type=&quot;math/tex&quot;&gt;\textbf{f}&lt;/script&gt; is &lt;i&gt;differentiable&lt;/i&gt; at &lt;script type=&quot;math/tex&quot;&gt;\textbf{x}&lt;/script&gt;, and we write&lt;/p&gt;
+
+&lt;center&gt;
+$$
+\begin{equation}    	\begin{aligned}          	\textbf{f}'(\textbf{x})=A.	\end{aligned}\end{equation}
+$$
+&lt;/center&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">a problem arised when using mathematical induction</title><link href="http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction.html" rel="alternate" type="text/html" title="a problem arised when using mathematical induction" /><published>2019-10-30T00:00:00+08:00</published><updated>2019-10-30T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
