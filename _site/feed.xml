@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-17T22:19:53+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">linear transformations and derivatives</title><link href="http://localhost:4000/about%20math/2019/11/16/linear-transformations-and-derivatives.html" rel="alternate" type="text/html" title="linear transformations and derivatives" /><published>2019-11-16T00:00:00+08:00</published><updated>2019-11-16T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/11/16/linear-transformations-and-derivatives</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/11/16/linear-transformations-and-derivatives.html">&lt;head&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-21T22:53:51+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tuzhong007’s blog</title><subtitle>tuzhong007's blog</subtitle><entry><title type="html">problem concerning euler constant</title><link href="http://localhost:4000/about%20math/2019/12/21/problem-concerning-euler-constant.html" rel="alternate" type="text/html" title="problem concerning euler constant" /><published>2019-12-21T00:00:00+08:00</published><updated>2019-12-21T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/12/21/problem-concerning-euler-constant</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/12/21/problem-concerning-euler-constant.html">&lt;head&gt;
+&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
+    &lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;Recently when I was browsing MSE, I came across a question about Euler constant.&lt;/p&gt;
+
+&lt;p&gt;The problem is:&lt;/p&gt;
+&lt;blockquote&gt;
+How to show that
+&lt;center&gt;
+$$
+\lim_{n\to\infty}\left[\sum^n_{k=1}\frac{1}{k}-\ln(n)\right]=0.5772\ldots
+$$
+&lt;/center&gt;
+No clue at all. Need help! Appreciated!
+&lt;/blockquote&gt;
+
+&lt;p&gt;However, a certain part of the second answer confused me.&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;&lt;strong&gt;Abel’s partial summation technique:&lt;/strong&gt;
+&lt;br /&gt;
+Let &lt;script type=&quot;math/tex&quot;&gt;A(n) = \displaystyle \sum_{k=1}^n a(k)&lt;/script&gt;. We then have&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;center&gt;
+$$
+ \begin{align*}
+\sum_{n=1}^{N} a(n) f(n) &amp;amp; = \sum_{n=1}^{N} f(n) (A(n)- A(n-1)) = \sum_{n=1}^{N} A(n) f(n) - \sum_{n=1}^{N} A(n-1) f(n)\\
+&amp;amp; = \sum_{n=1}^{N} A(n)f(n) - \sum_{n=0}^{N-1} A(n) f(n+1)\\
+&amp;amp; = A(N)f(N) - A(0) f(1) - \sum_{n=1}^{N-1} A(n) (f(n+1)-f(n))
+\end{align*}
+$$
+&lt;/center&gt;
+(The above is nothing but the discrete version of integration by parts).
+$$
+\sum_{n=1}^{N} a(n) f(n) = \int_{1^-}^{N^+} f(t) d(A(t)) =  f(t) A(t) \rvert_{1^-}^{N^+} - \int_{1^-}^{N^+} A(t) f'(t) dt
+$$
+(The second integral can be interpreted as a Riemann-Stieltjes integral.)
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://math.stackexchange.com/questions/344314/showing-that-lim-n-to-infty-sumn-k-1-frac1k-lnn-0-5772-ldots?noredirect=1&amp;amp;lq=1&quot;&gt;Here is the original post.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;  The first part is clear. But for the second part, the equation &lt;script type=&quot;math/tex&quot;&gt;\displaystyle 
+\sum_{n=1}^{N} a(n) f(n) = \displaystyle \int_{1^-}^{N^+} f(t) d(A(t))&lt;/script&gt; in particular, I was suprised to see such a peculiar expression of integral which I cann’t recognize at all and that a discrete summation could be turned into an integral so easily. So I asked Mr.Zhou Ruisong for help. He deemed that &lt;script type=&quot;math/tex&quot;&gt;\displaystyle \int_{1^-}^{N^+} f(t) d(A(t))&lt;/script&gt; stood for &lt;script type=&quot;math/tex&quot;&gt;\displaystyle \lim_{a\rightarrow 1^{-}} \lim_{b \rightarrow N^{+}} \int_{a^-}^{b^+} f(t) d(A(t))&lt;/script&gt; and that &lt;script type=&quot;math/tex&quot;&gt;A(n)=A(\lfloor n\rfloor)&lt;/script&gt; for real &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;, but with uncertainty. Along with his two sensible assumptions, I tried to wrote down a proof of the formular.
+&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Proof&lt;/strong&gt;
+Assume that &lt;script type=&quot;math/tex&quot;&gt;A:\mathbb{R}\rightarrow\mathbb{R}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;A(n)=A(\lfloor n\rfloor)&lt;/script&gt; for real &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;f:\mathbb{R}\rightarrow\mathbb{R}&lt;/script&gt; is continuous.&lt;/p&gt;
+
+&lt;p&gt;  Let’s consider the integer inteval &lt;script type=&quot;math/tex&quot;&gt;[1,N]&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;  Given &lt;script type=&quot;math/tex&quot;&gt;\epsilon&gt;0&lt;/script&gt;. Let a partition &lt;script type=&quot;math/tex&quot;&gt;P=\{x_0,x_1,\dots,x_n\}&lt;/script&gt; s.t. &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+U(f,P,A)-L(f,P,A)&lt;\epsilon %]]&gt;&lt;/script&gt;,
+&lt;br /&gt;
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+x_{i-1}&lt;x_{i} %]]&gt;&lt;/script&gt;  &lt;script type=&quot;math/tex&quot;&gt;\forall i\in [1,n]&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;x_{0}=1-a&lt;/script&gt; where &lt;script type=&quot;math/tex&quot;&gt;a\in (0,1)&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;x_{n}=N+b&lt;/script&gt; where &lt;script type=&quot;math/tex&quot;&gt;b\in (0,1)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\{x\vert x=k-\frac{1}{2},k\in \mathbb{N}^{*}\cap [1,N+1]\}\subset P&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;  Then,&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+\begin{align*}\Bigg \vert \sum_{i=1}^{n} f(t_i)\big [ A(x_i)- A(x_{i-1})\big ] - \int_{1-a}^{N+b} fdA \Bigg \vert &amp;lt; \epsilon \qquad \forall t_{i}\in[x_{i-1},x_{i}].\end{align*}
+$$
+
+&lt;/center&gt;
+
+&lt;p&gt;  In particular, we let &lt;script type=&quot;math/tex&quot;&gt;t_{i}=\lfloor x_{i}\rfloor&lt;/script&gt; if &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+x_{i-1}&lt;\lfloor x_{i}\rfloor &lt; x_{i} %]]&gt;&lt;/script&gt;. Thus,&lt;/p&gt;
+
+&lt;center&gt;
+$$
+\sum_{i=1}^{n} f(t_i)\big [ A(x_i)- A(x_{i-1})\big ]=\sum_{i=1}^{N} f(i)\big [ A(i)- A(i-1)\big ].
+$$
+&lt;/center&gt;
+
+&lt;p&gt;  Hence,&lt;/p&gt;
+&lt;center&gt;
+$$
+\begin{align*}	\Bigg \vert \sum_{i=1}^{n} f(t_i)\big [ A(x_i)- A(x_{i-1})\big ] - \int_{1-a}^{N+b} fdA \Bigg \vert=    \Bigg \vert \sum_{i=1}^{N} f(i)\big [ A(i)- A(i-1)\big ] - \int_{1-a}^{N+b} fdA \Bigg \vert &amp;lt; \epsilon.\end{align*}
+$$
+&lt;/center&gt;
+
+&lt;p&gt;  Since &lt;script type=&quot;math/tex&quot;&gt;\epsilon&lt;/script&gt; is arbitrary, we get&lt;/p&gt;
+
+&lt;center&gt;
+$$
+\begin{align*}    \sum_{i=1}^{N} f(i)\big [ A(i)- A(i-1)\big ] =\int_{1-a}^{N+b} fdA.\end{align*}
+$$
+&lt;/center&gt;
+&lt;p&gt;  Finally, letting &lt;script type=&quot;math/tex&quot;&gt;N+b \rightarrow N^{+}&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;1-a \rightarrow 1^{-}&lt;/script&gt;, we obtain&lt;/p&gt;
+
+&lt;center&gt;
+$$
+\begin{align*}    \sum_{i=1}^{N} f(i)\big [ A(i)- A(i-1)\big ] =\int_{1^{-}}^{N^{+}} fdA,\end{align*}
+$$
+&lt;/center&gt;
+&lt;p&gt;which is the desired result.&lt;/p&gt;
+
+&lt;p&gt;(Afterwards I discovered that &lt;script type=&quot;math/tex&quot;&gt;1^{-}&lt;/script&gt; denotes &lt;script type=&quot;math/tex&quot;&gt;1-\epsilon&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\epsilon&gt;0&lt;/script&gt; is arbitrarily small and &lt;script type=&quot;math/tex&quot;&gt;N^{+}&lt;/script&gt; denotes &lt;script type=&quot;math/tex&quot;&gt;N+\epsilon&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\epsilon&gt;0&lt;/script&gt; is arbitrarily small, according to the other answer of the author. The idea of the proof remains unchanged, though.)&lt;/p&gt;
+
+&lt;div id=&quot;lv-container&quot; data-id=&quot;city&quot; data-uid=&quot;MTAyMC80Njk4Ni8yMzQ4Ng==&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot;&gt;
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	&lt;/script&gt;
+&lt;noscript&gt; 为正常使用来必力评论功能请激活JavaScript&lt;/noscript&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">linear transformations and derivatives(FUNCTIONS OF SERVERAL VARIABLES)</title><link href="http://localhost:4000/about%20math/2019/11/16/linear-transformations-and-derivatives.html" rel="alternate" type="text/html" title="linear transformations and derivatives(FUNCTIONS OF SERVERAL VARIABLES)" /><published>2019-11-16T00:00:00+08:00</published><updated>2019-11-16T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/11/16/linear-transformations-and-derivatives</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/11/16/linear-transformations-and-derivatives.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
@@ -85,7 +202,24 @@ $$
 $$
 \begin{equation}    	\begin{aligned}          	\textbf{f}'(\textbf{x})=A.	\end{aligned}\end{equation}
 $$
-&lt;/center&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">a problem arised when using mathematical induction</title><link href="http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction.html" rel="alternate" type="text/html" title="a problem arised when using mathematical induction" /><published>2019-10-30T00:00:00+08:00</published><updated>2019-10-30T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction.html">&lt;head&gt;
+&lt;/center&gt;
+
+&lt;div id=&quot;lv-container&quot; data-id=&quot;city&quot; data-uid=&quot;MTAyMC80Njk4Ni8yMzQ4Ng==&quot;&gt;
+	&lt;script type=&quot;text/javascript&quot;&gt;
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	&lt;/script&gt;
+&lt;noscript&gt; 为正常使用来必力评论功能请激活JavaScript&lt;/noscript&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">a problem arised when using mathematical induction</title><link href="http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction.html" rel="alternate" type="text/html" title="a problem arised when using mathematical induction" /><published>2019-10-30T00:00:00+08:00</published><updated>2019-10-30T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/10/30/a-problem-arised-when-using-mathematical-induction.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
@@ -115,7 +249,7 @@ $$
    })(document, 'script');
 	&lt;/script&gt;
 &lt;noscript&gt; 为正常使用来必力评论功能请激活JavaScript&lt;/noscript&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">relations between some double sequences and series of functions</title><link href="http://localhost:4000/about%20math/2019/10/26/relation-between-some-double-sequnces-and-series-of-functions.html" rel="alternate" type="text/html" title="relations between some double sequences and series of functions" /><published>2019-10-26T00:00:00+08:00</published><updated>2019-10-26T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/10/26/relation-between-some-double-sequnces-and-series-of-functions</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/10/26/relation-between-some-double-sequnces-and-series-of-functions.html">&lt;head&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">relations between some double sequences and series of functions(SEQUENCE AND SERIES OF FUNCTIONS)</title><link href="http://localhost:4000/about%20math/2019/10/26/relations-between-some-double-sequences-and-series-of-functions.html" rel="alternate" type="text/html" title="relations between some double sequences and series of functions(SEQUENCE AND SERIES OF FUNCTIONS)" /><published>2019-10-26T00:00:00+08:00</published><updated>2019-10-26T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/10/26/relations-between-some-double-sequences-and-series-of-functions</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/10/26/relations-between-some-double-sequences-and-series-of-functions.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;
@@ -519,7 +653,7 @@ $$
    })(document, 'script');
 	&lt;/script&gt;
 &lt;noscript&gt; 为正常使用来必力评论功能请激活JavaScript&lt;/noscript&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">Construction Ideas(THE RIEMANN-STIETJES INTEGRAL)</title><link href="http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral.html" rel="alternate" type="text/html" title="Construction Ideas(THE RIEMANN-STIETJES INTEGRAL)" /><published>2019-09-01T00:00:00+08:00</published><updated>2019-09-01T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral.html">&lt;head&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="about math" /><summary type="html"></summary></entry><entry><title type="html">philosophy of some proof(THE RIEMANN-STIETJES INTEGRAL)</title><link href="http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral.html" rel="alternate" type="text/html" title="philosophy of some proof(THE RIEMANN-STIETJES INTEGRAL)" /><published>2019-09-01T00:00:00+08:00</published><updated>2019-09-01T00:00:00+08:00</updated><id>http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral</id><content type="html" xml:base="http://localhost:4000/about%20math/2019/09/01/CI_Riemann_Integral.html">&lt;head&gt;
 &lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
     &lt;/script&gt;
 &lt;/head&gt;

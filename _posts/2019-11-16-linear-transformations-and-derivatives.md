@@ -1,6 +1,6 @@
 ---
 layout: post
-title: linear transformations and derivatives
+title: linear transformations and derivatives(FUNCTIONS OF SERVERAL VARIABLES)
 category: about math
 ---
 <head>
@@ -93,6 +93,6 @@ $$
 $$
 </center>
 
-
+{% include post.html %}
 
   

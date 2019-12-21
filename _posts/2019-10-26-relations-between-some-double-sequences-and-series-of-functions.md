@@ -1,6 +1,6 @@
 ---
 layout: post
-title: relations between some double sequences and series of functions
+title: relations between some double sequences and series of functions(SEQUENCE AND SERIES OF FUNCTIONS)
 category: about math
 ---
 <head>

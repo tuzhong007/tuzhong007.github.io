@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Construction Ideas(THE RIEMANN-STIETJES INTEGRAL)
+title: philosophy of some proof(THE RIEMANN-STIETJES INTEGRAL)
 category: about math
 ---
 
